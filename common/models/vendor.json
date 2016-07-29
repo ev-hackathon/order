@@ -1,22 +1,24 @@
 {
-  "name": "Product",
+  "name": "Vendor",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "code": {
-      "type": "string",
-      "required": true
+    "phone": {
+      "type": "string"
     },
-    "name": {
-      "type": "string",
-      "default": ""
+    "name" : {
+      "type": "string"
+    },
+    "language":{
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+  },
   "acls": [],
   "methods": {}
 }

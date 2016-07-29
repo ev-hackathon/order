@@ -35,5 +35,21 @@
   "Product": {
     "dataSource": "db",
     "public": true
+  },
+  "Order": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Items": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Vendor": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
   }
 }
