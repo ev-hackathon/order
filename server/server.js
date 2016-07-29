@@ -18,7 +18,7 @@ app.start = function() {
 
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.
-/*
+
 boot(app, __dirname, function(err) {
   if (err) throw err;
 
@@ -26,10 +26,11 @@ boot(app, __dirname, function(err) {
   if (require.main === module)
     app.start();
 
-  var order = loopback.findModel('Order');
-  var msg = {msg:"பீட்ரூட் காகிலோ,బంగాళాదుంప అర కేజి\nCabbage 1 no", vno: "9880405637", cno: "8095101060"};
-  order.new(msg , function(err, data) {
-    console.log(data);
+//
+//  var order = loopback.findModel('Order');
+//  var msg = {msg:"பீட்ரூட் காகிலோ,బంగాళాదుంప అర కేజి\nCabbage 1 no", vno: "9880405637", cno: "8095101060"};
+ // order.new(msg , function(err, data) {
+  //  console.log(data);
   });
 });
-*/
+
