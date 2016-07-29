@@ -1,0 +1,24 @@
+{
+  "name": "Dictionary",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "language": {
+      "type": "string"
+    },
+    "source" : {
+      "type": "string"
+    },
+    "dest":{
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}
