@@ -38,3 +38,51 @@
 {"_id":{"$oid":"579b01949e04141cb8057958"},"language":"ml","source":"ഉരുളക്കിഴങ്ങ്","dest":"Potato"}
 {"_id":{"$oid":"579b019c9e04141cb8057959"},"language":"ml","source":"മത്തങ്ങ","dest":"Pumpkin"}
 {"_id":{"$oid":"579b01a89e04141cb805795a"},"language":"ml","source":"തക്കാളി","dest":"Tomato"}
+{"_id":{"$oid":"579b0e6cbd91560d74423494"},"language":"te","source":"కిలొగ్రామ్","dest":"kg"}
+{"_id":{"$oid":"579b0e74bd91560d74423495"},"language":"te","source":"కిలొ గ్రామ్","dest":"kg"}
+{"_id":{"$oid":"579b0e8bbd91560d74423496"},"language":"te","source":"కేజి","dest":"kg"}
+{"_id":{"$oid":"579b0edcbd91560d74423497"},"language":"te","source":"కిలొ","dest":"kg"}
+{"_id":{"$oid":"579b0f7dbd91560d74423498"},"language":"te","source":"ముపావ్","dest":"750 gm"}
+{"_id":{"$oid":"579b0fb0bd91560d74423499"},"language":"te","source":"ముపావ్ కిలొ","dest":"750 gm"}
+{"_id":{"$oid":"579b0fb8bd91560d7442349a"},"language":"te","source":"ముపావ్ కేజి","dest":"750 gm"}
+{"_id":{"$oid":"579b1034bd91560d7442349b"},"language":"te","source":"అర","dest":"500 gm"}
+{"_id":{"$oid":"579b103dbd91560d7442349c"},"language":"te","source":"అరకేజి","dest":"500 gm"}
+{"_id":{"$oid":"579b1040bd91560d7442349d"},"language":"te","source":"అర కేజి","dest":"500 gm"}
+{"_id":{"$oid":"579b1045bd91560d7442349e"},"language":"te","source":"అర కిలొ","dest":"500 gm"}
+{"_id":{"$oid":"579b1048bd91560d7442349f"},"language":"te","source":"అరకిలొ","dest":"500 gm"}
+{"_id":{"$oid":"579b1090bd91560d744234a2"},"language":"te","source":"పావు కిలొ","dest":"250 gm"}
+{"_id":{"$oid":"579b10a3bd91560d744234a3"},"language":"te","source":"పావుకిలొ","dest":"250 gm"}
+{"_id":{"$oid":"579b10b2bd91560d744234a4"},"language":"te","source":"పావుకేజి","dest":"250 gm"}
+{"_id":{"$oid":"579b10b4bd91560d744234a5"},"language":"te","source":"పావు కేజి","dest":"250 gm"}
+{"_id":{"$oid":"579b10b7bd91560d744234a6"},"language":"te","source":"పావు","dest":"250 gm"}
+{"_id":{"$oid":"579b10fcbd91560d744234a7"},"language":"te","source":"గ్రాములు","dest":"gm"}
+{"_id":{"$oid":"579b115abd91560d744234a8"},"language":"ta","source":"அரை கிலோ","dest":"500 gm"}
+{"_id":{"$oid":"579b115cbd91560d744234a9"},"language":"ta","source":"அரைகிலோ","dest":"500 gm"}
+{"_id":{"$oid":"579b1193bd91560d744234aa"},"language":"ta","source":"அரைகேஜி","dest":"500 gm"}
+{"_id":{"$oid":"579b1195bd91560d744234ab"},"language":"ta","source":"அரை கேஜி","dest":"500 gm"}
+{"_id":{"$oid":"579b11dcbd91560d744234ac"},"language":"ta","source":"அரை","dest":"500 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234ad"},"language":"ta","source":"முக்காகிலோ","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234ae"},"language":"ta","source":"முக்கா கிலோ","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234af"},"language":"ta","source":"முக்காகேஜி","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b0"},"language":"ta","source":"முக்கா கேஜி","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b1"},"language":"ta","source":"முக்கால்கிலோ","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b2"},"language":"ta","source":"முக்கால் கிலோ","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b3"},"language":"ta","source":"முக்கால் கேஜி","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b4"},"language":"ta","source":"முக்கால்கேஜி","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b5"},"language":"ta","source":"முக்கால்","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b6"},"language":"ta","source":"முக்கா","dest":"750 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234b7"},"language":"ta","source":"காகிலோ","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234b8"},"language":"ta","source":"கா கிலோ","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234b9"},"language":"ta","source":"காகேஜி","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234ba"},"language":"ta","source":"கா கேஜி","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234bb"},"language":"ta","source":"கால்கிலோ","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234bc"},"language":"ta","source":"கால் கிலோ","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234bd"},"language":"ta","source":"கால் கேஜி","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234be"},"language":"ta","source":"கால்கேஜி","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234bf"},"language":"ta","source":"கால்","dest":"250 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234c0"},"language":"ta","source":"கா","dest":"250 gm"}
+{"_id":{"$oid":"579b14fbbd91560d744234c1"},"language":"ta","source":"கிலோ","dest":"kg"}
+{"_id":{"$oid":"579b14fbbd91560d744234c2"},"language":"ta","source":"கேஜி","dest":"kg"}
+{"_id":{"$oid":"579b16e6bd91560d744234c3"},"language":"ml","source":"കേജീ","dest":"kg"}
+{"_id":{"$oid":"579b16e6bd91560d744234c4"},"language":"ml","source":"കിലോ","dest":"kg"}
+{"_id":{"$oid":"579b16e6bd91560d744234c5"},"language":"ml","source":"കി","dest":"kg"}
