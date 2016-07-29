@@ -1,34 +1,85 @@
- <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Order #42</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Order</title>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    </style>
 </head>
 
-<body>
- <table style="width:100%">
-  <tr>
+<body unresolved>
+<template is="dom-bind" id="app">
+    <h4>Customer Details</h4>
+    <div id="customer">
+    <div>{{order.customer.name}}</div>
+    </div>
+    <h4>Order Details</h4>
+    <div id="order">
+    <table>
+    <tr>
     <th>Item</th>
-    <th>Quantity</th>
-    <th>Unit</th>
-  </tr>
-  <tr>
-    <td>Tomato</td>
-    <td>1.5</td>
-    <td>kg</td>
-  </tr>
-  <tr>
-    <td>Potato</td>
-    <td>2.0</td>
-    <td>kg</td>
-  </tr>
-  <tr>
-    <td>Coconuts</td>
-    <td>1</td>
-    <td>No</td>
-  </tr>
-
-</table> 
+    <th>Qty</th>
+    <th>Qty</th>
+    </tr>
+    <template is="dom-repeat" items={{order.items}}>
+    <tr>
+    <td>{{item.product}}</td>
+    <td>{{item.qty}}</td>
+    <td>{{item.unit}}</td>
+    </tr>
+    </template>
+    </table>
+    </div>
+</template>
+<script>
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    var orderId = getParameterByName("id");
+    var app = document.querySelector("#app");
+    var order = {
+        customer: {
+            name : "Srinivasa Raghavan"
+        },
+        items : [
+            {
+                product : "Carrot",
+                qty     : 500,
+                unit    : "gm" 
+            },
+            {
+                product : "Beetroot",
+                qty     : 250,
+                unit    : "gm" 
+            },
+            {
+                product : "Cabbage",
+                qty     : 1,
+                unit    : "no" 
+            }
+        ]
+    };
+    app.set('order', order);
+</script>
 </body>
-
-</html> 
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "order",
+  "description": "order",
+  "main": "server/server.js",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/ev-hackathon/order",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
