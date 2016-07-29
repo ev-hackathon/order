@@ -6,13 +6,8 @@
     "validateUpsert": true
   },
   "properties": {
-    "code": {
-      "type": "string",
-      "required": true
-    },
     "name": {
-      "type": "string",
-      "default": ""
+      "type": "string"
     }
   },
   "validations": [],

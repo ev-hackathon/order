@@ -24,4 +24,10 @@ boot(app, __dirname, function(err) {
   // start the server if `$ node server.js`
   if (require.main === module)
     app.start();
+
+  // var order = loopback.findModel('Order');
+  // var msg = {msg:"பீட்ரூட் காகிலோ,బంగాళాదుంప అర కేజి", vno: "9880405637", cno: "8095101060"};
+  // order.new(msg , function(err, data) {
+  //   console.log(data);
+  // });
 });
