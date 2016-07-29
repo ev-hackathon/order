@@ -60,6 +60,8 @@
     
     (function getOrderDetails() {
         var orderId = getParameterByName("id");
+        orderId = orderId.replace(/\"/g , "");
+        
         var ajaxRequest = document.createElement('iron-ajax');
           ajaxRequest.contentType = "application/json";
           ajaxRequest.handleAs = "json";
