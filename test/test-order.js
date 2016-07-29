@@ -62,4 +62,13 @@ describe('Order model', function() {
       done();
     })
   });
+
+  it('unavailable product', function(done) {
+    var msg = "Mango 2kg";
+    order.formOrder(null, null, msg, function(err, data) {
+      console.log(err); 
+      expect(err).to.be.not.empty;
+      done();
+    })
+  });
 });

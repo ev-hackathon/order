@@ -42,21 +42,28 @@ module.exports = function(Order) {
             }
 
             product.find({where : {name : productName}}, function (err, data) {
-                orderItems.push({productId: data[0].id, qty : qty, unit : unit});
-                callback2();
+                if (err || data.length == 0) {
+                  callback2({msg: productName + ' not available'});
+                }
+                else {
+                  orderItems.push({productId: data[0].id, qty : qty, unit : unit});
+                  callback2();
+                }
             });
         },
         function (err) {
             if (err) {
-                throw err;
+                cb(err, null);
             }
-            var order = {};
-            order.vendorId = vendorId;
-            order.customerId = customerId;
-            order.orderdate = new Date();
-            order.items = orderItems;
-            order.status = 'pending';
-            cb(null, order);
+            else {
+              var order = {};
+              order.vendorId = vendorId;
+              order.customerId = customerId;
+              order.orderdate = new Date();
+              order.items = orderItems;
+              order.status = 'pending';
+              cb(null, order);
+            }
         }
       );
       
@@ -87,7 +94,7 @@ module.exports = function(Order) {
         vendorId = data[0].id;
         Order.formOrder(vendorId, customerId, msg, function(err, data) {
           Order.create(data, function(err, data) {
-            cb(err, 'Your order '+ data.id + ' is under process, and will be delivered in 2 hours.|' + data.id);
+            cb(err, 'Your order ' + data.id + ' is under process, and will be delivered in 2 hours.|' + data.id);
           });
         });
       })
