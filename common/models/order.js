@@ -73,6 +73,68 @@ module.exports = function(Order) {
     })
     
   };
+
+  Order.get = function(id, cb){
+    var order = loopback.findModel("Order");
+    order.findById(id, {include: ["customer", "vendor"]}, function(err, orgData){
+      var productIds = [];
+      // Customer number
+      if(err){
+        cb(err, orgData);
+      }else{
+        console.log('orgData ' , orgData);
+        var items = orgData.items;
+        for(var m=0;m<orgData.items.length;m++){
+          productIds.push(orgData.items[m].productId);
+        }
+        console.log('vendor ', orgData.vendor() );
+        var vlng = orgData.vendor().language;
+        console.log('v lng ' + vlng);
+        if(vlng === 'en'){
+          console.log('Vendor lang english');
+          cb(err,orgData);
+        }else{
+          var product = loopback.findModel('Product');
+          var productNamesArray = [];
+          product.find({where:{id:{inq: productIds}}}, function(err, products){
+            if(err) console.log(err);
+            console.log(products);
+            for(var i=0; i < products.length; i++){
+              productNamesArray.push(products[i].name);
+              for(var j=0;j < orgData.items.length; j++){
+                console.log(typeof orgData.items[j].productId + " " + typeof products[i].id);
+                console.log(orgData.items[j].productId + " " + products[i].id);
+                if(orgData.items[j].productId.toString() == products[i].id.toString()){
+                  console.log('settig name');
+                  orgData.items[j].name = products[i].name;
+                }
+              }
+            }
+            var dictionary = loopback.findModel('Dictionary');
+            console.log('lng ', orgData.vendor.language);
+            dictionary.find({where:{and: [{dest:{inq:productNamesArray}}, {language: vlng}]}}, function(err, newData){
+              for(var p=0;p<newData.length;p++){
+                for(var v=0; v<orgData.items.length;v++){
+                  if(newData[p].dest.toString() === orgData.items[v].name.toString()){
+                    orgData.items[v].lname = newData[p].source;
+                  }
+                }
+              }
+              console.log('', newData);
+              cb(err,orgData);
+            });
+            //async.eachOf(products, function(product, m, cb2){
+              
+            //}, function(err){
+
+            //});
+            
+          });
+        }
+      }     
+    });
+  };
+
   Order.remoteMethod(
           'new', {
               description: 'Accept new order in any language',
@@ -93,5 +155,28 @@ module.exports = function(Order) {
                   root: true
               }
           });
+
+  Order.remoteMethod(
+    'get', 
+    {
+      description: 'Get the Oder',
+      http: {
+        path: '/get',
+        verb: 'get'
+      },
+      accepts: {
+        arg: 'id',
+        type: 'string',
+        http: {
+          source: 'query'
+        }
+      },
+      returns: {
+        arg: 'order',
+        type: 'object',
+        root: true
+      }
+    }
+  );
 };
 
