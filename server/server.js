@@ -25,9 +25,9 @@ boot(app, __dirname, function(err) {
   if (require.main === module)
     app.start();
 
-  // var order = loopback.findModel('Order');
-  // var msg = {msg:"பீட்ரூட் காகிலோ,బంగాళాదుంప అర కేజి", vno: "9880405637", cno: "8095101060"};
-  // order.new(msg , function(err, data) {
-  //   console.log(data);
-  // });
+  var order = loopback.findModel('Order');
+  var msg = {msg:"பீட்ரூட் காகிலோ,బంగాళాదుంప అర కేజి\nCabbage 1 no", vno: "9880405637", cno: "8095101060"};
+  order.new(msg , function(err, data) {
+    console.log(data);
+  });
 });

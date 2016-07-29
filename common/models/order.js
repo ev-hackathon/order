@@ -12,7 +12,8 @@ module.exports = function(Order) {
         var re = new RegExp(d.source, "g");
         message = message.replace(d.source, d.dest);
       }
-      var items = message.split(",");
+      console.log(message);
+      var items = message.split(/[,\n]/);
       var product = loopback.findModel("Product");
       var orderItems = [];
       async.eachOf(items,
@@ -44,7 +45,7 @@ module.exports = function(Order) {
   Order.new = function (message, cb) {
     console.log('message ' , message);
     // msg , vno, cno 
-    var msg = message.msg;
+    var msg = message.msg.replace(/^\s+|\s+$/g,'');
     var vendorMobile = message.vno;
     var customerMobile = message.cno;
     var customerModel = loopback.findModel('Customer');
