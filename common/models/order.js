@@ -13,13 +13,22 @@ module.exports = function(Order) {
         message = message.replace(d.source, d.dest);
       }
       console.log(message);
-      var items = message.split(/[,\n]/);
+      // make 2kg - 2 kg
+      message = message.replace(/([0-9]+)kg/gi, "$1 kg");
+      message = message.replace(/([0-9]+)gms/gi, "$1 gm");
+      message = message.replace(/([0-9]+)gm/gi, "$1 gm");
+      console.log(message);
+      var items = message.split(/[,\n.]/);
       var product = loopback.findModel("Product");
       var orderItems = [];
       async.eachOf(items,
         function (item, m, callback2) {
-            var itemDetails = item.split(" ");
+            var item1 = item.replace(/^\s+|\s+$/g,'');
+            var itemDetails = item1.split(" ");
             console.log(itemDetails);
+            var productName;
+            var qty;
+            var unit;
             product.find({where : {name : itemDetails[0]}}, function (err, data) {
                 orderItems.push({productId: data[0].id, qty : itemDetails[1], unit : itemDetails[2]});
                 callback2();
@@ -66,7 +75,7 @@ module.exports = function(Order) {
         vendorId = data[0].id;
         Order.formOrder(vendorId, customerId, msg, function(err, data) {
           Order.create(data, function(err, data) {
-            cb(err, data.id);
+            cb(err, 'Your order %ORDER_ID is under process, and will be delivered in 2 hours.|' + data.id);
           });
         });
       })
