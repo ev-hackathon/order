@@ -31,6 +31,6 @@ boot(app, __dirname, function(err) {
 //  var msg = {msg:"பீட்ரூட் காகிலோ,బంగాళాదుంప అర కేజి\nCabbage 1 no", vno: "9880405637", cno: "8095101060"};
  // order.new(msg , function(err, data) {
   //  console.log(data);
-  });
+//  });
 });
 
