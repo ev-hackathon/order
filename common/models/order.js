@@ -26,11 +26,23 @@ module.exports = function(Order) {
             var item1 = item.replace(/^\s+|\s+$/g,'');
             var itemDetails = item1.split(" ");
             console.log(itemDetails);
+            var checkIfQtyFirst = new RegExp(/^[0-9]/);
             var productName;
             var qty;
             var unit;
-            product.find({where : {name : itemDetails[0]}}, function (err, data) {
-                orderItems.push({productId: data[0].id, qty : itemDetails[1], unit : itemDetails[2]});
+            if (checkIfQtyFirst.test(item1)) {
+              productName = itemDetails[2];
+              qty = itemDetails[0];
+              unit = itemDetails[1];
+            }
+            else {
+              productName = itemDetails[0];
+              qty = itemDetails[1];
+              unit = itemDetails[2];
+            }
+
+            product.find({where : {name : productName}}, function (err, data) {
+                orderItems.push({productId: data[0].id, qty : qty, unit : unit});
                 callback2();
             });
         },
