@@ -15,7 +15,7 @@ module.exports = function(Order) {
       var items = message.split(",");
       var product = loopback.findModel("Product");
       var orderItems = [];
-      async.forEachOf(items,
+      async.eachOf(items,
         function (item, m, callback2) {
             var itemDetails = item.split(" ");
             console.log(itemDetails);
@@ -65,7 +65,7 @@ module.exports = function(Order) {
         vendorId = data[0].id;
         Order.formOrder(vendorId, customerId, msg, function(err, data) {
           Order.create(data, function(err, data) {
-            cb(err, data);
+            cb(err, data.id);
           });
         });
       })
