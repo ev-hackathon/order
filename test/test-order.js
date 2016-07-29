@@ -71,4 +71,14 @@ describe('Order model', function() {
       done();
     })
   });
+
+  it('case insensitive', function(done) {
+    var msg = "potato 2kg";
+    order.formOrder(null, null, msg, function(err, data) {
+      var items = data.items;
+      expect(items.length).to.be.equal(1);
+      expect(items[0].productId).to.be.not.empty;
+      done();
+    })
+  });
 });
