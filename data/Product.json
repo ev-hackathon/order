@@ -1,0 +1,10 @@
+{"_id":{"$oid":"579b2bad25ca85098c96dde3"},"name":"Potato"}
+{"_id":{"$oid":"579b2bad25ca85098c96dde4"},"name":"Cabbage"}
+{"_id":{"$oid":"579b2bad25ca85098c96dde5"},"name":"Cucumber"}
+{"_id":{"$oid":"579b2bad25ca85098c96dde6"},"name":"Beetroot"}
+{"_id":{"$oid":"579b2bad25ca85098c96dde7"},"name":"Cauliflower"}
+{"_id":{"$oid":"579b2bad25ca85098c96dde8"},"name":"Pumpkin"}
+{"_id":{"$oid":"579b2bad25ca85098c96dde9"},"name":"Chilli"}
+{"_id":{"$oid":"579b2bad25ca85098c96ddea"},"name":"Drumstick"}
+{"_id":{"$oid":"579b2bad25ca85098c96ddeb"},"name":"Tomato"}
+{"_id":{"$oid":"579b2bad25ca85098c96ddec"},"name":"Ginger"}
