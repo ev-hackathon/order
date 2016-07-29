@@ -1,0 +1,1 @@
+mongoexport --db db --collection Dictionary --out Dictionary.json
