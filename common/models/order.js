@@ -41,7 +41,8 @@ module.exports = function(Order) {
               unit = itemDetails[2];
             }
 
-            product.find({where : {name : productName}}, function (err, data) {
+
+            product.find({where : {name : {regexp: new RegExp(productName, "i") }}}, function (err, data) {
                 if (err || data.length == 0) {
                   callback2({msg: productName + ' not available'});
                 }
