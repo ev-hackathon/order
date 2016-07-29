@@ -1,0 +1,28 @@
+{
+  "name": "Customer",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "phone": {
+      "type": "string"
+    },
+    "name" : {
+      "type": "string"
+    },
+    "language":{
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "vendor" : {
+      "type" : "belongsTo",
+      "model" : "Vendor"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Items",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "qty": {
+      "type": "number"
+    },
+    "unit" : {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "product" : {
+      "type" : "belongsTo",
+      "model" : "Product"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
