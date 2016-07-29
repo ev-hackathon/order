@@ -93,9 +93,19 @@ module.exports = function(Order) {
         }
         vendorId = data[0].id;
         Order.formOrder(vendorId, customerId, msg, function(err, data) {
-          Order.create(data, function(err, data) {
-            cb(err, 'Your order ' + data.id + ' is under process, and will be delivered in 2 hours.|' + data.id);
-          });
+          if (err) {
+            cb(err, null);
+          }
+          else {
+            Order.create(data, function(err, data) {
+                if (err) {
+                  cb(err, null)
+                }
+                else {
+                  cb(null, 'Your order ' + data.id + ' is under process, and will be delivered in 2 hours.|' + data.id);
+                }
+              });
+          }
         });
       })
     })
