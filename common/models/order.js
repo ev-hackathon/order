@@ -42,7 +42,7 @@ module.exports = function(Order) {
             }
 
 
-            product.find({where : {name : {regexp: new RegExp(productName, "i") }}}, function (err, data) {
+            product.find({where : {name : {regexp: new RegExp("^"+productName+"$", "i") }}}, function (err, data) {
                 if (err || data.length == 0) {
                   callback2({msg: productName + ' not available'});
                 }
@@ -217,5 +217,51 @@ module.exports = function(Order) {
       }
     }
   );
+
+function responseStatus(status) {
+  return function(context, callback) {
+    var result = context.result;
+    console.log('rsr  ', context);
+    // if(testResult(result)) { // testResult is some method for checking that you have the correct return data
+    //   context.res.statusCode = status;
+    // }
+    return callback();
+  }
+}
+
+  Order.remoteMethod(
+      'updatestatus', 
+      {
+         accepts: [{arg: 'status', type: 'string'}, {arg: 'id', type: 'string'}],
+         returns: {arg: 'message', type: 'string', root : true},
+         http: {path: '/updatestatus', verb: 'get'},
+         rest: {after: responseStatus(201) }
+       }
+  );
+
+  Order.updatestatus = function(status, id, cb) {
+    Order.findById(id , function(err, data) {
+      if (err || !data) {
+        // cb(null, id + " not found");
+        cb({message : "Order " + id + " not found"}, null)
+      }
+      else {
+        data.status = status;
+        Order.upsert(data, function(err, data) {
+          if (err || !data) {
+            cb({message : "Error updating order", err: err}, null);
+          } else {
+            var msg;
+            if (status == "accept") {
+              msg = "Order " + id + " accepted";
+            } else {
+              msg = "Order " + id + " was rejected, due to no stock";
+            }
+            cb(null, msg);
+          }
+        })
+      }
+    })
+  }
 };
 

@@ -81,4 +81,13 @@ describe('Order model', function() {
       done();
     })
   });
+
+  it('i love you bug :D', function(done) {
+    var msg = "I love you";
+    order.formOrder(null, null, msg, function(err, data) {
+      console.log(err); 
+      expect(err).to.be.not.empty;
+      done();
+    })
+  });
 });
