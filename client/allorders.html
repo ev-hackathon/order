@@ -35,7 +35,7 @@
     <template is="dom-repeat" items={{orders}}>
     <tr>
     <td>{{item.customer.name}}</td>
-    <td>{{item.customer.phone}}</td>
+    <td>{{formatPhone(item.customer.phone)}}</td>
     <td><a href="/order.html?id={{item.id}}">{{formatDate(item.orderdate)}}</a></td>
     <td>{{item.status}}</td>
     </tr>
@@ -49,6 +49,11 @@
         var m = new Date(date);
         if (m) 
             ret = m.toDateString()+ " " + m.toLocaleTimeString()
+        return ret;
+    }
+    app.formatPhone = function(phone) {
+        var ret = phone.replace(/^\+91/, "");
+        ret = ret.replace(/(^.....)/, "$1 ");
         return ret;
     }
 
