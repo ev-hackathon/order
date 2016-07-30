@@ -12,12 +12,10 @@ module.exports = function(Order) {
         var re = new RegExp(d.source, "g");
         message = message.replace(d.source, d.dest);
       }
-      console.log(message);
       // make 2kg - 2 kg
       message = message.replace(/([0-9]+)kg/gi, "$1 kg");
       message = message.replace(/([0-9]+)gms/gi, "$1 gm");
       message = message.replace(/([0-9]+)gm/gi, "$1 gm");
-      console.log(message);
       var items = message.split(/[,\n.]/);
       var product = loopback.findModel("Product");
       var orderItems = [];
@@ -25,7 +23,6 @@ module.exports = function(Order) {
         function (item, m, callback2) {
             var item1 = item.replace(/^\s+|\s+$/g,'');
             var itemDetails = item1.split(" ");
-            console.log(itemDetails);
             var checkIfQtyFirst = new RegExp(/^[0-9]/);
             var productName;
             var qty;
@@ -218,24 +215,12 @@ module.exports = function(Order) {
     }
   );
 
-function responseStatus(status) {
-  return function(context, callback) {
-    var result = context.result;
-    console.log('rsr  ', context);
-    // if(testResult(result)) { // testResult is some method for checking that you have the correct return data
-    //   context.res.statusCode = status;
-    // }
-    return callback();
-  }
-}
-
   Order.remoteMethod(
       'updatestatus', 
       {
          accepts: [{arg: 'status', type: 'string'}, {arg: 'id', type: 'string'}],
          returns: {arg: 'message', type: 'string', root : true},
-         http: {path: '/updatestatus', verb: 'get'},
-         rest: {after: responseStatus(201) }
+         http: {path: '/updatestatus', verb: 'get'}
        }
   );
 
