@@ -66,7 +66,6 @@ describe('Order model', function() {
   it('unavailable product', function(done) {
     var msg = "Mango 2kg";
     order.formOrder(null, null, msg, function(err, data) {
-      console.log(err); 
       expect(err).to.be.not.empty;
       done();
     })
@@ -85,7 +84,6 @@ describe('Order model', function() {
   it('i love you bug :D', function(done) {
     var msg = "I love you";
     order.formOrder(null, null, msg, function(err, data) {
-      console.log(err); 
       expect(err).to.be.not.empty;
       done();
     })
