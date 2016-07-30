@@ -240,24 +240,58 @@ function responseStatus(status) {
   );
 
   Order.updatestatus = function(status, id, cb) {
-    Order.findById(id , function(err, data) {
-      if (err || !data) {
+    Order.findById(id , function(err, orgData) {
+      if (err || !orgData) {
         // cb(null, id + " not found");
         cb({message : "Order " + id + " not found"}, null)
       }
       else {
-        data.status = status;
-        Order.upsert(data, function(err, data) {
+        orgData.status = status;
+        Order.upsert(orgData, function(err, data) {
           if (err || !data) {
             cb({message : "Error updating order", err: err}, null);
           } else {
-            var msg;
-            if (status == "accept") {
-              msg = "Order " + id + " accepted";
-            } else {
-              msg = "Order " + id + " was rejected, due to no stock";
-            }
-            cb(null, msg);
+            var custId = orgData.customerId;
+            var customer = loopback.findModel('Customer');
+            customer.findById(custId, function(err, customerData){
+              var msg;
+              if(err || !customerData || customerData.language.toString() === 'en'){
+                if (status == "accept") {
+                  msg = "Order " + id + " accepted";
+                } else {
+                  msg = "Order " + id + " was rejected, due to no stock";
+                }
+                cb(null, msg);
+              }else{
+                var dictionary = loopback.findModel('Dictionary');
+                var vals = [];
+                var acceptedval = 'Your order with ID $id is accepted. It will be delivered in 2 hours.';
+                var rejectedval = 'Your order was rejected as some items are out of stock.';
+                vals.push(acceptedval);
+                vals.push(rejectedval);
+                console.log('cust lang ' +customerData.language.toString());
+                dictionary.find({where:{and: [{language: customerData.language.toString()}, {dest: {inq: vals}}]}}, function(err, data){
+                  console.log("err", err);
+                  console.log("dictionary data ", data);
+                  var acptdInLng, rjctdInLng;
+                  for(var i=0; i<data.length;i++){
+                    if(data[i].dest.toString() === acceptedval){
+                      if(status === 'accept'){
+                        acptdInLng = data[i].source.toString().replace('$id', id) + '|SUCCESS';
+                      }                      
+                    }else{
+                      rjctdInLng = data[i].source.toString()+'|FAILED';
+                    }
+                  }
+                  if(acptdInLng){
+                    cb(null, acptdInLng);
+                  }else{
+                    cb(null, rjctdInLng);
+                  }                  
+                });
+              }
+            });
+            
           }
         })
       }
