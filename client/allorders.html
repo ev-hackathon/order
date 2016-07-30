@@ -62,24 +62,43 @@
         return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
     
-    (function getOrderDetails() {
-        var vendorId = getParameterByName("id");
-        vendorId = vendorId.replace(/\"/g , "");
-        
+    function getVendorId(phone, cb) {
         var ajaxRequest = document.createElement('iron-ajax');
           ajaxRequest.contentType = "application/json";
           ajaxRequest.handleAs = "json";
-          ajaxRequest.url = '/api/orders?filter[where][vendorId]=' + vendorId + '&filter[include]=customer';
+          ajaxRequest.url = '/api/vendors?filter[where][phone]=' + phone;
 
           ajaxRequest.addEventListener('response', function(event) {
-            app.set('orders', event.detail.response.sort(function(a,b) {return new Date (b.orderdate) - new Date(a.orderdate);}));
+            cb(event.detail.response[0].id);
           }.bind(this));
 
           ajaxRequest.addEventListener('error', function(err) {
             console.log(err);
+            cb(null);
           }.bind(this));
 
           ajaxRequest.generateRequest();
+    };
+
+    (function getOrderDetails() {
+        var phone = getParameterByName("id");
+        phone = phone.replace(/\"/g , "");
+        getVendorId(phone, function(vendorId) {
+            var ajaxRequest = document.createElement('iron-ajax');
+              ajaxRequest.contentType = "application/json";
+              ajaxRequest.handleAs = "json";
+              ajaxRequest.url = '/api/orders?filter[where][vendorId]=' + vendorId + '&filter[include]=customer';
+
+              ajaxRequest.addEventListener('response', function(event) {
+                app.set('orders', event.detail.response.sort(function(a,b) {return new Date (b.orderdate) - new Date(a.orderdate);}));
+              }.bind(this));
+
+              ajaxRequest.addEventListener('error', function(err) {
+                console.log(err);
+              }.bind(this));
+
+              ajaxRequest.generateRequest();
+        } );
     })();
 
     // var order = {

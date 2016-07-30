@@ -177,3 +177,6 @@
 {"_id":{"$oid":"579b276cbd91560d7442352a"},"language":"te","source":"ఇధు కేజి","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352b"},"language":"te","source":"ఇధుకిలొ","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352c"},"language":"te","source":"ఇధు కిలొ","dest":"5 kg"}
+{"_id":{"$oid":"579c7903e02b1a254055c176"},"language":"ml","source":"എന്നെ രജിസ്റ്റർ ചെയ്യൂ","dest": "register me"}
+{"_id":{"$oid":"579c79f7e02b1a254055c177"},"language":"te","source":"నన్ను నమోదు చేయండి","dest": "register me"}
+{"_id":{"$oid":"579c7ae1e02b1a254055c178"},"language":"ta","source":"என்னை பதிவு செய்","dest":"register me"}
