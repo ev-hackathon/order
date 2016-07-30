@@ -27,17 +27,17 @@
     <h4>All Orders</h4>
     <table>
     <tr>
-    <th>Order</th>
     <th>Customer</th>
     <th>Phone</th>
     <th>Date</th>
+    <th>Status</th>
     </tr>
     <template is="dom-repeat" items={{orders}}>
     <tr>
-    <td>{{item.id}}</td>
     <td>{{item.customer.name}}</td>
     <td>{{item.customer.phone}}</td>
-    <td>{{item.date}}</td>
+    <td><a href="/order.html?id={{item.id}}">{{formatDate(item.orderdate)}}</a></td>
+    <td>{{item.status}}</td>
     </tr>
     </template>
     </table>
@@ -45,6 +45,13 @@
 </template>
 <script>
     var app = document.querySelector("#app");
+    app.formatDate = function(date) {
+        var m = new Date(date);
+        if (m) 
+            ret = m.toDateString()+ " " + m.toLocaleTimeString()
+        return ret;
+    }
+
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, "\\$&");
@@ -62,10 +69,10 @@
         var ajaxRequest = document.createElement('iron-ajax');
           ajaxRequest.contentType = "application/json";
           ajaxRequest.handleAs = "json";
-          ajaxRequest.url = '/api/orders?filter[where][vendorId]=' + vendorId;
+          ajaxRequest.url = '/api/orders?filter[where][vendorId]=' + vendorId + '&filter[include]=customer';
 
           ajaxRequest.addEventListener('response', function(event) {
-            app.set('orders', event.detail.response);
+            app.set('orders', event.detail.response.sort(function(a,b) {return new Date (b.orderdate) - new Date(a.orderdate);}));
           }.bind(this));
 
           ajaxRequest.addEventListener('error', function(err) {
