@@ -177,8 +177,8 @@
 {"_id":{"$oid":"579b276cbd91560d7442352c"},"language":"te","source":"ఇధు కిలొ","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352a"},"language":"te","source":"ఇధు కేజి","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352b"},"language":"te","source":"ఇధుకిలొ","dest":"5 kg"}
-{"_id":{"$oid":"579c7903e02b1a254055c176"},"language":"ml","source":"എന്നെ രജിസ്റ്റർ ചെയ്യൂ","dest": "register me"}
-{"_id":{"$oid":"579c79f7e02b1a254055c177"},"language":"te","source":"నన్ను నమోదు చేయండి","dest": "register me"}
+{"_id":{"$oid":"579c7903e02b1a254055c176"},"language":"ml","source":"എന്നെ രജിസ്റ്റർ ചെയ്യൂ","dest":"register me"}
+{"_id":{"$oid":"579c79f7e02b1a254055c177"},"language":"te","source":"నన్ను నమోదు చేయండి","dest":"register me"}
 {"_id":{"$oid":"579c7ae1e02b1a254055c178"},"language":"ta","source":"என்னை பதிவு செய்","dest":"register me"}
 {"_id":{"$oid":"579c6c27b6341b377c8e835a"},"language":"te","source":"మీ నమోదు విఫలమైంది. దయచేసి వెండర్ కి కాల్ చేయండి.","dest":"Your registration failed. Please call the Vendor."}
 {"_id":{"$oid":"579c6c56b6341b377c8e835b"},"language":"te","source":"మీ నమోదు విజయవంతమైన ఉంది. మీరు ఇప్పుడు ఆర్దరింగ్ ప్రారంభించవచ్చు!","dest":"Your registration is successful. You can now start ordering!"}
@@ -188,4 +188,7 @@
 {"_id":{"$oid":"579c6cd5b6341b377c8e835f"},"language":"ml","source":"നിങ്ങളുടെ രജിസ്ട്രേഷൻ പരാജയപ്പെട്ടു. വെൻഡറിനെ വിളിക്കുക","dest":"Your registration failed. Please call the Vendor."}
 {"_id":{"$oid":"579c6d31b6341b377c8e8360"},"language":"te","source":"మీ ఆర్డర్ అంగీకరించాము మీ నంబర్ $id, ఆర్డర్ 2 గంటల్లో పంపబడుతుంది.","dest":"Your order with ID $id is accepted. It will be delivered in 2 hours."}
 {"_id":{"$oid":"579c6d4bb6341b377c8e8361"},"language":"te","source":"స్టాక్ లేని కారణం వల్ల ఆర్డర్ తిరస్కరించబడింది.","dest":"Your order was rejected as some items are out of stock."}
-
+{"_id":{"$oid":"579c938d150f974b424cc027"},"language":"ta","source":"உங்கள் ஆர்டர் எண் $id ஏற்றுக்கொள்ளப்பட்டது. இன்னும் இறன்டு மணி நேரத்திற்க்குள் சாமான் வந்து சேறும்","dest":"Your order with ID $id is accepted. It will be delivered in 2 hours."}
+{"_id":{"$oid":"579c93ae150f974b424cc028"},"language":"ta","source":"உங்கள் ஆர்டர்ஐ எங்களால் தற்பொளுது ஏற்றுக்கொள்ள முடியவல்லை","dest":"Your order was rejected as some items are out of stock."}
+{"_id":{"$oid":"579c93c1150f974b424cc029"},"language":"ta","source":"நல்வரவு. இனி எஸ் எம் எஸ் யில் காய் கரி வாங்கலாம்.","dest":"Your registration is successful. You can now start ordering!"}
+{"_id":{"$oid":"579c93d1150f974b424cc02a"},"language":"ta","source":"தங்கள் கோறிக்கை எங்களால் தற்பொளுது ஏற்றுக்கொள்ள முடியவல்லை. எங்களை கால் செய்யவும்","dest":"Your registration failed. Please call the Vendor."}
