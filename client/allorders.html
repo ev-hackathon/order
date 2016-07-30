@@ -59,15 +59,17 @@
             results = regex.exec(url);
         if (!results) return null;
         if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
+        return decodeURIComponent(results[2]);
     }
     
     function getVendorId(phone, cb) {
         var ajaxRequest = document.createElement('iron-ajax');
           ajaxRequest.contentType = "application/json";
           ajaxRequest.handleAs = "json";
-          ajaxRequest.url = '/api/vendors?filter[where][phone]=' + phone;
-
+          if (phone.length > 10) {
+                phone = phone.substring(phone.length-10, phone.length);
+          }
+          ajaxRequest.url = '/api/vendors?filter[where][phone]=%2B91' + phone;
           ajaxRequest.addEventListener('response', function(event) {
             cb(event.detail.response[0].id);
           }.bind(this));
