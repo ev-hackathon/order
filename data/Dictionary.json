@@ -1,10 +1,9 @@
 {"_id":{"$oid":"579af9a79e04141cb8057930"},"language":"te","source":"బీట్రూట్","dest":"Beetroot"}
-{"_id":{"$oid":"579af9fa9e04141cb8057931"},"language":"te","source":"క్యాబేజీ","dest":"Cabbage"}
 {"_id":{"$oid":"579afa0d9e04141cb8057932"},"language":"te","source":"కాలీఫ్లవర్","dest":"Cauliflower"}
 {"_id":{"$oid":"579afa209e04141cb8057933"},"language":"te","source":"మిరప","dest":"Chilli"}
 {"_id":{"$oid":"579afa489e04141cb8057934"},"language":"te","source":"దోసకాయ","dest":"Cucumber"}
+{"_id":{"$oid":"579af9fa9e04141cb8057931"},"language":"te","source":"క్యాబేజీ","dest":"Cabbage"}
 {"_id":{"$oid":"579afa5b9e04141cb8057935"},"language":"te","source":"ములగ","dest":"Drumstick"}
-{"_id":{"$oid":"579afa6b9e04141cb8057936"},"language":"te","source":"అల్లం","dest":"Ginger"}
 {"_id":{"$oid":"579afa799e04141cb8057937"},"language":"te","source":"బంగాళాదుంప","dest":"Potato"}
 {"_id":{"$oid":"579afa899e04141cb8057938"},"language":"te","source":"గుమ్మడికాయ","dest":"Pumpkin"}
 {"_id":{"$oid":"579afa939e04141cb8057939"},"language":"te","source":"టమోటా","dest":"Pumpkin"}
@@ -19,13 +18,14 @@
 {"_id":{"$oid":"579afb5f9e04141cb8057942"},"language":"ta","source":"பூசணிக்காய்","dest":"Pumpkin"}
 {"_id":{"$oid":"579afb6a9e04141cb8057943"},"language":"ta","source":"தக்காளி","dest":"Tomato"}
 {"_id":{"$oid":"579afbbd9e04141cb8057944"},"language":"kn","source":"ಬೀಟ್ರೂಟ್","dest":"Beetroot"}
+{"_id":{"$oid":"579afa6b9e04141cb8057936"},"language":"te","source":"అల్లం","dest":"Ginger"}
 {"_id":{"$oid":"579afbc89e04141cb8057945"},"language":"kn","source":"ಎಲೆಕೋಸು","dest":"Cabbage"}
 {"_id":{"$oid":"579afc219e04141cb8057946"},"language":"kn","source":"ಹೂಕೋಸು","dest":"Cauliflower"}
 {"_id":{"$oid":"579b00c19e04141cb805794a"},"language":"kn","source":"ಮೆಣಸಿನಕಾಯಿಯ","dest":"Chilli"}
 {"_id":{"$oid":"579b00d09e04141cb805794b"},"language":"kn","source":"ಸೌತೆಕಾಯಿ","dest":"Cucumber"}
 {"_id":{"$oid":"579b00db9e04141cb805794c"},"language":"kn","source":"ಡ್ರಮ್ಸ್ಟಿಕ್","dest":"Drumstick"}
-{"_id":{"$oid":"579b00f99e04141cb805794d"},"language":"kn","source":"ಶುಂಠಿ","dest":"Ginger"}
 {"_id":{"$oid":"579b01019e04141cb805794e"},"language":"kn","source":"ಆಲೂಗಡ್ಡೆ","dest":"Potato"}
+{"_id":{"$oid":"579b00f99e04141cb805794d"},"language":"kn","source":"ಶುಂಠಿ","dest":"Ginger"}
 {"_id":{"$oid":"579b01099e04141cb805794f"},"language":"kn","source":"ಕುಂಬಳಕಾಯಿ","dest":"Pumpkin"}
 {"_id":{"$oid":"579b010f9e04141cb8057950"},"language":"kn","source":"ಟೊಮೇಟೊ","dest":"Tomato"}
 {"_id":{"$oid":"579b013f9e04141cb8057951"},"language":"ml","source":"ബീറ്റ്റൂട്ട്","dest":"Beetroot"}
@@ -34,13 +34,12 @@
 {"_id":{"$oid":"579b01589e04141cb8057954"},"language":"ml","source":"മുളക്","dest":"Chilli"}
 {"_id":{"$oid":"579b01669e04141cb8057955"},"language":"ml","source":"വെള്ളരിക്ക","dest":"Cucumber"}
 {"_id":{"$oid":"579b016e9e04141cb8057956"},"language":"ml","source":"മുരിങ്ങ","dest":"Drumstick"}
-{"_id":{"$oid":"579b01799e04141cb8057957"},"language":"ml","source":"ഇഞ്ചി","dest":"Ginger"}
 {"_id":{"$oid":"579b01949e04141cb8057958"},"language":"ml","source":"ഉരുളക്കിഴങ്ങ്","dest":"Potato"}
 {"_id":{"$oid":"579b019c9e04141cb8057959"},"language":"ml","source":"മത്തങ്ങ","dest":"Pumpkin"}
+{"_id":{"$oid":"579b01799e04141cb8057957"},"language":"ml","source":"ഇഞ്ചി","dest":"Ginger"}
 {"_id":{"$oid":"579b01a89e04141cb805795a"},"language":"ml","source":"തക്കാളി","dest":"Tomato"}
 {"_id":{"$oid":"579b0e6cbd91560d74423494"},"language":"te","source":"కిలొగ్రామ్","dest":"kg"}
 {"_id":{"$oid":"579b0e74bd91560d74423495"},"language":"te","source":"కిలొ గ్రామ్","dest":"kg"}
-{"_id":{"$oid":"579b0e8bbd91560d74423496"},"language":"te","source":"కేజి","dest":"kg"}
 {"_id":{"$oid":"579b0edcbd91560d74423497"},"language":"te","source":"కిలొ","dest":"kg"}
 {"_id":{"$oid":"579b0f7dbd91560d74423498"},"language":"te","source":"ముపావ్","dest":"750 gm"}
 {"_id":{"$oid":"579b0fb0bd91560d74423499"},"language":"te","source":"ముపావ్ కిలొ","dest":"750 gm"}
@@ -49,29 +48,29 @@
 {"_id":{"$oid":"579b103dbd91560d7442349c"},"language":"te","source":"అరకేజి","dest":"500 gm"}
 {"_id":{"$oid":"579b1040bd91560d7442349d"},"language":"te","source":"అర కేజి","dest":"500 gm"}
 {"_id":{"$oid":"579b1045bd91560d7442349e"},"language":"te","source":"అర కిలొ","dest":"500 gm"}
+{"_id":{"$oid":"579b0e8bbd91560d74423496"},"language":"te","source":"కేజి","dest":"kg"}
 {"_id":{"$oid":"579b1048bd91560d7442349f"},"language":"te","source":"అరకిలొ","dest":"500 gm"}
 {"_id":{"$oid":"579b1090bd91560d744234a2"},"language":"te","source":"పావు కిలొ","dest":"250 gm"}
 {"_id":{"$oid":"579b10a3bd91560d744234a3"},"language":"te","source":"పావుకిలొ","dest":"250 gm"}
 {"_id":{"$oid":"579b10b2bd91560d744234a4"},"language":"te","source":"పావుకేజి","dest":"250 gm"}
 {"_id":{"$oid":"579b10b4bd91560d744234a5"},"language":"te","source":"పావు కేజి","dest":"250 gm"}
 {"_id":{"$oid":"579b10b7bd91560d744234a6"},"language":"te","source":"పావు","dest":"250 gm"}
-{"_id":{"$oid":"579b10fcbd91560d744234a7"},"language":"te","source":"గ్రాములు","dest":"gm"}
 {"_id":{"$oid":"579b115abd91560d744234a8"},"language":"ta","source":"அரை கிலோ","dest":"500 gm"}
+{"_id":{"$oid":"579b10fcbd91560d744234a7"},"language":"te","source":"గ్రాములు","dest":"gm"}
 {"_id":{"$oid":"579b115cbd91560d744234a9"},"language":"ta","source":"அரைகிலோ","dest":"500 gm"}
-{"_id":{"$oid":"579b1193bd91560d744234aa"},"language":"ta","source":"அரைகேஜி","dest":"500 gm"}
 {"_id":{"$oid":"579b1195bd91560d744234ab"},"language":"ta","source":"அரை கேஜி","dest":"500 gm"}
-{"_id":{"$oid":"579b11dcbd91560d744234ac"},"language":"ta","source":"அரை","dest":"500 gm"}
+{"_id":{"$oid":"579b1193bd91560d744234aa"},"language":"ta","source":"அரைகேஜி","dest":"500 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234ad"},"language":"ta","source":"முக்காகிலோ","dest":"750 gm"}
+{"_id":{"$oid":"579b11dcbd91560d744234ac"},"language":"ta","source":"அரை","dest":"500 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234ae"},"language":"ta","source":"முக்கா கிலோ","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234af"},"language":"ta","source":"முக்காகேஜி","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234b0"},"language":"ta","source":"முக்கா கேஜி","dest":"750 gm"}
-{"_id":{"$oid":"579b1344bd91560d744234b1"},"language":"ta","source":"முக்கால்கிலோ","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234b2"},"language":"ta","source":"முக்கால் கிலோ","dest":"750 gm"}
+{"_id":{"$oid":"579b1344bd91560d744234b1"},"language":"ta","source":"முக்கால்கிலோ","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234b3"},"language":"ta","source":"முக்கால் கேஜி","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234b4"},"language":"ta","source":"முக்கால்கேஜி","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234b5"},"language":"ta","source":"முக்கால்","dest":"750 gm"}
 {"_id":{"$oid":"579b1344bd91560d744234b6"},"language":"ta","source":"முக்கா","dest":"750 gm"}
-{"_id":{"$oid":"579b13e6bd91560d744234b7"},"language":"ta","source":"காகிலோ","dest":"250 gm"}
 {"_id":{"$oid":"579b13e6bd91560d744234b8"},"language":"ta","source":"கா கிலோ","dest":"250 gm"}
 {"_id":{"$oid":"579b13e6bd91560d744234b9"},"language":"ta","source":"காகேஜி","dest":"250 gm"}
 {"_id":{"$oid":"579b13e6bd91560d744234ba"},"language":"ta","source":"கா கேஜி","dest":"250 gm"}
@@ -82,12 +81,13 @@
 {"_id":{"$oid":"579b13e6bd91560d744234bf"},"language":"ta","source":"கால்","dest":"250 gm"}
 {"_id":{"$oid":"579b13e6bd91560d744234c0"},"language":"ta","source":"கா","dest":"250 gm"}
 {"_id":{"$oid":"579b14fbbd91560d744234c1"},"language":"ta","source":"கிலோ","dest":"kg"}
-{"_id":{"$oid":"579b14fbbd91560d744234c2"},"language":"ta","source":"கேஜி","dest":"kg"}
 {"_id":{"$oid":"579b16e6bd91560d744234c3"},"language":"ml","source":"കേജീ","dest":"kg"}
+{"_id":{"$oid":"579b14fbbd91560d744234c2"},"language":"ta","source":"கேஜி","dest":"kg"}
 {"_id":{"$oid":"579b16e6bd91560d744234c4"},"language":"ml","source":"കിലോ","dest":"kg"}
 {"_id":{"$oid":"579b16e6bd91560d744234c5"},"language":"ml","source":"കി","dest":"kg"}
 {"_id":{"$oid":"579b1c58bd91560d744234c6"},"language":"ml","source":"മുക്കാല്‍","dest":"750 gm"}
 {"_id":{"$oid":"579b1c58bd91560d744234c7"},"language":"ml","source":"മുക്കാല്‍കേജീ","dest":"750 gm"}
+{"_id":{"$oid":"579b13e6bd91560d744234b7"},"language":"ta","source":"காகிலோ","dest":"250 gm"}
 {"_id":{"$oid":"579b1c58bd91560d744234c8"},"language":"ml","source":"മുക്കാല്‍ കേജീ","dest":"750 gm"}
 {"_id":{"$oid":"579b1c58bd91560d744234c9"},"language":"ml","source":"മുക്കാല്‍കിലോ","dest":"750 gm"}
 {"_id":{"$oid":"579b1c58bd91560d744234ca"},"language":"ml","source":"മുക്കാല്‍ കിലോ","dest":"750 gm"}
@@ -95,28 +95,28 @@
 {"_id":{"$oid":"579b1c58bd91560d744234cc"},"language":"ml","source":"മുക്കാല്‍ കി","dest":"750 gm"}
 {"_id":{"$oid":"579b1e0dbd91560d744234cd"},"language":"ml","source":"അര","dest":"500 gm"}
 {"_id":{"$oid":"579b1e0dbd91560d744234ce"},"language":"ml","source":"അരകേജീ","dest":"500 gm"}
-{"_id":{"$oid":"579b1e0dbd91560d744234cf"},"language":"ml","source":"അര കേജീ","dest":"500 gm"}
 {"_id":{"$oid":"579b1e0dbd91560d744234d0"},"language":"ml","source":"അരകിലോ","dest":"500 gm"}
 {"_id":{"$oid":"579b1e0dbd91560d744234d1"},"language":"ml","source":"അര കിലോ","dest":"500 gm"}
+{"_id":{"$oid":"579b1e0dbd91560d744234cf"},"language":"ml","source":"അര കേജീ","dest":"500 gm"}
 {"_id":{"$oid":"579b1e0dbd91560d744234d2"},"language":"ml","source":"അരകി","dest":"500 gm"}
 {"_id":{"$oid":"579b1e0dbd91560d744234d3"},"language":"ml","source":"അര കി","dest":"500 gm"}
 {"_id":{"$oid":"579b1e72bd91560d744234d4"},"language":"ml","source":"കാല്‍","dest":"250 gm"}
 {"_id":{"$oid":"579b1e72bd91560d744234d5"},"language":"ml","source":"കാല്‍കേജീ","dest":"250 gm"}
-{"_id":{"$oid":"579b1e72bd91560d744234d6"},"language":"ml","source":"കാല്‍ കേജീ","dest":"250 gm"}
 {"_id":{"$oid":"579b1e72bd91560d744234d7"},"language":"ml","source":"കാല്‍കിലോ","dest":"250 gm"}
+{"_id":{"$oid":"579b1e72bd91560d744234d6"},"language":"ml","source":"കാല്‍ കേജീ","dest":"250 gm"}
 {"_id":{"$oid":"579b1e72bd91560d744234d8"},"language":"ml","source":"കാല്‍ കിലോ","dest":"250 gm"}
 {"_id":{"$oid":"579b1e72bd91560d744234d9"},"language":"ml","source":"കാല്‍കി","dest":"250 gm"}
 {"_id":{"$oid":"579b1e72bd91560d744234da"},"language":"ml","source":"കാല്‍ കി","dest":"250 gm"}
 {"_id":{"$oid":"579b2083bd91560d744234dc"},"language":"ml","source":"ഒരുകേജീ","dest":"1 kg"}
 {"_id":{"$oid":"579b2083bd91560d744234dd"},"language":"ml","source":"ഒരു കേജീ","dest":"1 kg"}
-{"_id":{"$oid":"579b2083bd91560d744234de"},"language":"ml","source":"ഒരുകിലോ","dest":"1 kg"}
-{"_id":{"$oid":"579b2083bd91560d744234df"},"language":"ml","source":"ഒരു കിലോ","dest":"1 kg"}
 {"_id":{"$oid":"579b2083bd91560d744234e0"},"language":"ml","source":"ഒരുകി","dest":"1 kg"}
+{"_id":{"$oid":"579b2083bd91560d744234df"},"language":"ml","source":"ഒരു കിലോ","dest":"1 kg"}
+{"_id":{"$oid":"579b2083bd91560d744234de"},"language":"ml","source":"ഒരുകിലോ","dest":"1 kg"}
 {"_id":{"$oid":"579b2083bd91560d744234e1"},"language":"ml","source":"ഒരു കി","dest":"1 kg"}
-{"_id":{"$oid":"579b215ebd91560d744234ea"},"language":"ml","source":"രണ്ട്‌കേജീ","dest":"2 kg"}
 {"_id":{"$oid":"579b215ebd91560d744234eb"},"language":"ml","source":"രണ്ട്‌ കേജീ","dest":"2 kg"}
-{"_id":{"$oid":"579b215ebd91560d744234ec"},"language":"ml","source":"രണ്ട്‌കിലോ","dest":"2 kg"}
+{"_id":{"$oid":"579b215ebd91560d744234ea"},"language":"ml","source":"രണ്ട്‌കേജീ","dest":"2 kg"}
 {"_id":{"$oid":"579b215ebd91560d744234ed"},"language":"ml","source":"രണ്ട്‌ കിലോ","dest":"2 kg"}
+{"_id":{"$oid":"579b215ebd91560d744234ec"},"language":"ml","source":"രണ്ട്‌കിലോ","dest":"2 kg"}
 {"_id":{"$oid":"579b215ebd91560d744234ee"},"language":"ml","source":"രണ്ട്‌കി","dest":"2 kg"}
 {"_id":{"$oid":"579b215ebd91560d744234ef"},"language":"ml","source":"രണ്ട്‌ കി","dest":"2 kg"}
 {"_id":{"$oid":"579b21cbbd91560d744234f1"},"language":"ml","source":"മൂന്ന്കേജീ","dest":"3 kg"}
@@ -126,16 +126,16 @@
 {"_id":{"$oid":"579b21cbbd91560d744234f5"},"language":"ml","source":"മൂന്ന്കി","dest":"3 kg"}
 {"_id":{"$oid":"579b21cbbd91560d744234f6"},"language":"ml","source":"മൂന്ന് കി","dest":"3 kg"}
 {"_id":{"$oid":"579b223cbd91560d744234f8"},"language":"ml","source":"നാല്‌കേജീ","dest":"4 kg"}
-{"_id":{"$oid":"579b223cbd91560d744234f9"},"language":"ml","source":"നാല്‌ കേജീ","dest":"4 kg"}
 {"_id":{"$oid":"579b223cbd91560d744234fa"},"language":"ml","source":"നാല്‌കിലോ","dest":"4 kg"}
+{"_id":{"$oid":"579b223cbd91560d744234f9"},"language":"ml","source":"നാല്‌ കേജീ","dest":"4 kg"}
 {"_id":{"$oid":"579b223cbd91560d744234fb"},"language":"ml","source":"നാല്‌ കിലോ","dest":"4 kg"}
 {"_id":{"$oid":"579b223cbd91560d744234fc"},"language":"ml","source":"നാല്‌കി","dest":"4 kg"}
 {"_id":{"$oid":"579b223cbd91560d744234fd"},"language":"ml","source":"നാല്‌ കി","dest":"4 kg"}
 {"_id":{"$oid":"579b226dbd91560d744234ff"},"language":"ml","source":"അഞ്ച്‌കേജീ","dest":"5 kg"}
 {"_id":{"$oid":"579b226dbd91560d74423500"},"language":"ml","source":"അഞ്ച്‌ കേജീ","dest":"5 kg"}
 {"_id":{"$oid":"579b226dbd91560d74423501"},"language":"ml","source":"അഞ്ച്‌കിലോ","dest":"5 kg"}
-{"_id":{"$oid":"579b226dbd91560d74423502"},"language":"ml","source":"അഞ്ച്‌ കിലോ","dest":"5 kg"}
 {"_id":{"$oid":"579b226dbd91560d74423503"},"language":"ml","source":"അഞ്ച്‌കി","dest":"5 kg"}
+{"_id":{"$oid":"579b226dbd91560d74423502"},"language":"ml","source":"അഞ്ച്‌ കിലോ","dest":"5 kg"}
 {"_id":{"$oid":"579b226dbd91560d74423504"},"language":"ml","source":"അഞ്ച്‌ കി","dest":"5 kg"}
 {"_id":{"$oid":"579b250ebd91560d74423505"},"language":"ta","source":"ஒருகிலோ","dest":"1 kg"}
 {"_id":{"$oid":"579b250ebd91560d74423506"},"language":"ta","source":"ஒரு கிலோ","dest":"1 kg"}
@@ -143,8 +143,8 @@
 {"_id":{"$oid":"579b250ebd91560d74423508"},"language":"ta","source":"ஒரு கேஜி","dest":"1 kg"}
 {"_id":{"$oid":"579b2535bd91560d74423509"},"language":"ta","source":"ரெண்டுகிலோ","dest":"2 kg"}
 {"_id":{"$oid":"579b2535bd91560d7442350a"},"language":"ta","source":"ரெண்டு கிலோ","dest":"2 kg"}
-{"_id":{"$oid":"579b2535bd91560d7442350b"},"language":"ta","source":"ரெண்டுகேஜி","dest":"2 kg"}
 {"_id":{"$oid":"579b2535bd91560d7442350c"},"language":"ta","source":"ரெண்டு கேஜி","dest":"2 kg"}
+{"_id":{"$oid":"579b2535bd91560d7442350b"},"language":"ta","source":"ரெண்டுகேஜி","dest":"2 kg"}
 {"_id":{"$oid":"579b2571bd91560d7442350d"},"language":"ta","source":"மூணுகிலோ","dest":"3 kg"}
 {"_id":{"$oid":"579b2571bd91560d7442350e"},"language":"ta","source":"மூணு கிலோ","dest":"3 kg"}
 {"_id":{"$oid":"579b2571bd91560d7442350f"},"language":"ta","source":"மூணுகேஜி","dest":"3 kg"}
@@ -152,31 +152,41 @@
 {"_id":{"$oid":"579b2591bd91560d74423511"},"language":"ta","source":"நாலுகிலோ","dest":"4 kg"}
 {"_id":{"$oid":"579b2591bd91560d74423512"},"language":"ta","source":"நாலு கிலோ","dest":"4 kg"}
 {"_id":{"$oid":"579b2591bd91560d74423513"},"language":"ta","source":"நாலுகேஜி","dest":"4 kg"}
-{"_id":{"$oid":"579b2591bd91560d74423514"},"language":"ta","source":"நாலு கேஜி","dest":"4 kg"}
 {"_id":{"$oid":"579b25d1bd91560d74423515"},"language":"ta","source":"அஞ்சுகிலோ","dest":"5 kg"}
+{"_id":{"$oid":"579b2591bd91560d74423514"},"language":"ta","source":"நாலு கேஜி","dest":"4 kg"}
 {"_id":{"$oid":"579b25d1bd91560d74423516"},"language":"ta","source":"அஞ்சு கிலோ","dest":"5 kg"}
 {"_id":{"$oid":"579b25d1bd91560d74423517"},"language":"ta","source":"அஞ்சுகேஜி","dest":"5 kg"}
 {"_id":{"$oid":"579b25d1bd91560d74423518"},"language":"ta","source":"அஞ்சு கேஜி","dest":"5 kg"}
 {"_id":{"$oid":"579b265fbd91560d74423519"},"language":"te","source":"ఒకకేజి","dest":"1 kg"}
 {"_id":{"$oid":"579b265fbd91560d7442351a"},"language":"te","source":"ఒక కేజి","dest":"1 kg"}
-{"_id":{"$oid":"579b265fbd91560d7442351b"},"language":"te","source":"ఒకకిలొ","dest":"1 kg"}
 {"_id":{"$oid":"579b265fbd91560d7442351c"},"language":"te","source":"ఒక కిలొ","dest":"1 kg"}
+{"_id":{"$oid":"579b265fbd91560d7442351b"},"language":"te","source":"ఒకకిలొ","dest":"1 kg"}
 {"_id":{"$oid":"579b267dbd91560d7442351d"},"language":"te","source":"రెండుకేజి","dest":"2 kg"}
 {"_id":{"$oid":"579b267dbd91560d7442351e"},"language":"te","source":"రెండు కేజి","dest":"2 kg"}
 {"_id":{"$oid":"579b267dbd91560d7442351f"},"language":"te","source":"రెండుకిలొ","dest":"2 kg"}
-{"_id":{"$oid":"579b267dbd91560d74423520"},"language":"te","source":"రెండు కిలొ","dest":"2 kg"}
 {"_id":{"$oid":"579b2736bd91560d74423521"},"language":"te","source":"మూడుకేజి","dest":"3 kg"}
-{"_id":{"$oid":"579b2736bd91560d74423522"},"language":"te","source":"మూడు కేజి","dest":"3 kg"}
+{"_id":{"$oid":"579b267dbd91560d74423520"},"language":"te","source":"రెండు కిలొ","dest":"2 kg"}
 {"_id":{"$oid":"579b2736bd91560d74423523"},"language":"te","source":"మూడుకిలొ","dest":"3 kg"}
+{"_id":{"$oid":"579b2736bd91560d74423522"},"language":"te","source":"మూడు కేజి","dest":"3 kg"}
 {"_id":{"$oid":"579b2736bd91560d74423524"},"language":"te","source":"మూడు కిలొ","dest":"3 kg"}
 {"_id":{"$oid":"579b2755bd91560d74423525"},"language":"te","source":"నాలుగుకేజి","dest":"4 kg"}
 {"_id":{"$oid":"579b2755bd91560d74423526"},"language":"te","source":"నాలుగు కేజి","dest":"4 kg"}
-{"_id":{"$oid":"579b2755bd91560d74423527"},"language":"te","source":"నాలుగుకిలొ","dest":"4 kg"}
 {"_id":{"$oid":"579b2755bd91560d74423528"},"language":"te","source":"నాలుగు కిలొ","dest":"4 kg"}
+{"_id":{"$oid":"579b2755bd91560d74423527"},"language":"te","source":"నాలుగుకిలొ","dest":"4 kg"}
 {"_id":{"$oid":"579b276cbd91560d74423529"},"language":"te","source":"ఇధుకేజి","dest":"5 kg"}
+{"_id":{"$oid":"579b276cbd91560d7442352c"},"language":"te","source":"ఇధు కిలొ","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352a"},"language":"te","source":"ఇధు కేజి","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352b"},"language":"te","source":"ఇధుకిలొ","dest":"5 kg"}
 {"_id":{"$oid":"579b276cbd91560d7442352c"},"language":"te","source":"ఇధు కిలొ","dest":"5 kg"}
 {"_id":{"$oid":"579c7903e02b1a254055c176"},"language":"ml","source":"എന്നെ രജിസ്റ്റർ ചെയ്യൂ","dest": "register me"}
 {"_id":{"$oid":"579c79f7e02b1a254055c177"},"language":"te","source":"నన్ను నమోదు చేయండి","dest": "register me"}
 {"_id":{"$oid":"579c7ae1e02b1a254055c178"},"language":"ta","source":"என்னை பதிவு செய்","dest":"register me"}
+{"_id":{"$oid":"579c6c27b6341b377c8e835a"},"language":"te","source":"మీ నమోదు విఫలమైంది. దయచేసి వెండర్ కి కాల్ చేయండి.","dest":"Your registration failed. Please call the Vendor."}
+{"_id":{"$oid":"579c6c56b6341b377c8e835b"},"language":"te","source":"మీ నమోదు విజయవంతమైన ఉంది. మీరు ఇప్పుడు ఆర్దరింగ్ ప్రారంభించవచ్చు!","dest":"Your registration is successful. You can now start ordering!"}
+{"_id":{"$oid":"579c6c84b6341b377c8e835c"},"language":"ml","source":"നിങ്ങളുടെ ഓർഡർ ID $id സ്വീകരിച്ചിരിക്കുന്നു. 2 മണിക്കൂറിനകം ഇത് എത്തിച്ചിരിക്കപ്പെടും","dest":"Your order with ID $id is accepted. It will be delivered in 2 hours."}
+{"_id":{"$oid":"579c6c9db6341b377c8e835d"},"language":"ml","source":"ചില ഇനങ്ങൾ സ്റ്റോക്കിലില്ലാത്തതുകൊണ്ട്  നിങ്ങളുടെ ഓർഡർ നിരസിക്കപ്പെട്ടു.","dest":"Your order was rejected as some items are out of stock."}
+{"_id":{"$oid":"579c6cbfb6341b377c8e835e"},"language":"ml","source":"നിങ്ങളുടെ രജിസ്ട്രേഷൻ സഫലമായി. നിങ്ങൾക്കു ഇനി ഓർഡർ ചെയ്യാം","dest":"Your registration is successful. You can now start ordering!"}
+{"_id":{"$oid":"579c6cd5b6341b377c8e835f"},"language":"ml","source":"നിങ്ങളുടെ രജിസ്ട്രേഷൻ പരാജയപ്പെട്ടു. വെൻഡറിനെ വിളിക്കുക","dest":"Your registration failed. Please call the Vendor."}
+{"_id":{"$oid":"579c6d31b6341b377c8e8360"},"language":"te","source":"మీ ఆర్డర్ అంగీకరించాము మీ నంబర్ $id, ఆర్డర్ 2 గంటల్లో పంపబడుతుంది.","dest":"Your order with ID $id is accepted. It will be delivered in 2 hours."}
+{"_id":{"$oid":"579c6d4bb6341b377c8e8361"},"language":"te","source":"స్టాక్ లేని కారణం వల్ల ఆర్డర్ తిరస్కరించబడింది.","dest":"Your order was rejected as some items are out of stock."}
+
