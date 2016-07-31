@@ -1,0 +1,1103 @@
+<TaskerData sr="" dvi="1" tv="4.8u5m">
+	<dmetric>1440.0,2560.0</dmetric>
+	<Profile sr="prof106" ve="2">
+		<cdate>1469697883002</cdate>
+		<edate>1469871108467</edate>
+		<id>106</id>
+		<mid0>100</mid0>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof88" ve="2">
+		<cdate>1469697883002</cdate>
+		<edate>1469876498384</edate>
+		<id>88</id>
+		<mid0>95</mid0>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">CG:Customers</Str>
+			<Str sr="arg2" ve="3"/>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1469697839030</cdate>
+		<name>SMSOrder</name>
+		<pids>106,88</pids>
+		<scenes>Order,OrdersAll2,OrdersAll</scenes>
+		<tids>96,104,100,98,107,95,101,109,108,97</tids>
+		<Kid sr="Kid">
+			<launchID>107</launchID>
+			<pkg>com.edgeverve.hackathon</pkg>
+			<vnme>1.0</vnme>
+			<vnum>8</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<nme>cust_star</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneOrder">
+		<cdate>1469699616874</cdate>
+		<edate>1469934021141</edate>
+		<gridSize>10</gridSize>
+		<heightLand>-1</heightLand>
+		<heightPort>2560</heightPort>
+		<nme>Order</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1440</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,100,1440,1760,0,0,1440,2560</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%TABLE</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>96</clickTask>
+			<flags>4</flags>
+			<geom>50,1890,410,250,130,2230,480,250</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hl_navigation_accept</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>97</clickTask>
+			<flags>4</flags>
+			<geom>510,1890,410,250,960,2280,480,250</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hl_content_remove</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>98</clickTask>
+			<flags>4</flags>
+			<geom>970,2180,410,250,1170,2230,229,250</geom>
+			<Str sr="arg0" ve="3">Button3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hl_aaa_ext_export</nme>
+			</Img>
+		</ButtonElement>
+		<ButtonElement sr="elements4" ve="3">
+			<clickTask>101</clickTask>
+			<flags>4</flags>
+			<geom>970,1890,410,250,1170,2230,229,250</geom>
+			<Str sr="arg0" ve="3">Button4</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hl_collections_view_as_list</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>290,0,820,120,290,0,820,120</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">EV - HACKATHON  2016</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>260,2440,860,120,260,2440,860,120</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Team: RSR, Pradeep, Ajith</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFee</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Orders</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneOrdersAll">
+		<cdate>1469699616874</cdate>
+		<edate>1469933461932</edate>
+		<gridSize>10</gridSize>
+		<heightLand>1440</heightLand>
+		<heightPort>2560</heightPort>
+		<nme>OrdersAll</nme>
+		<widthLand>1440</widthLand>
+		<widthPort>1440</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,100,1440,2050,0,0,1440,1440</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%HACK_HOST/allorders.html?id=%VNO</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>104</clickTask>
+			<flags>4</flags>
+			<geom>1100,2180,319,250,1170,1190,229,250</geom>
+			<Str sr="arg0" ve="3">Button3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hl_content_undo</nme>
+			</Img>
+		</ButtonElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,2200,529,190,0,2200,659,190</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<ButtonElement sr="elements3" ve="3">
+			<clickTask>108</clickTask>
+			<flags>4</flags>
+			<geom>830,2190,239,220,690,2190,249,220</geom>
+			<Str sr="arg0" ve="3">Button2</Str>
+			<Str sr="arg1" ve="3">V</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<EditTextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>560,2200,239,190,560,2200,239,190</geom>
+			<Str sr="arg0" ve="3">TextEdit2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>250,0,830,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">EV - HACKATHON  2016</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>270,2460,820,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Team: RSR, Pradeep, Ajith</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFee</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Orders</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneOrdersAll2">
+		<cdate>1469699616874</cdate>
+		<edate>1469933614450</edate>
+		<gridSize>10</gridSize>
+		<heightLand>1440</heightLand>
+		<heightPort>2560</heightPort>
+		<nme>OrdersAll2</nme>
+		<widthLand>1440</widthLand>
+		<widthPort>1440</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>0,100,1440,2060,0,0,1440,1440</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%HACK_HOST/allorders.html?id=%VNO</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</WebElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>109</clickTask>
+			<flags>4</flags>
+			<geom>970,2180,410,250,1170,1190,229,250</geom>
+			<Str sr="arg0" ve="3">Button3</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2">
+				<nme>hl_content_undo</nme>
+			</Img>
+		</ButtonElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>300,0,720,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">EV - HACKATHON  2016</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>290,2450,790,110,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text2</Str>
+			<Str sr="arg1" ve="3">Team: RSR, Pradeep, Ajith</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#ffFFFFee</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Orders</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task100">
+		<cdate>1469697898861</cdate>
+		<edate>1469877380628</edate>
+		<id>100</id>
+		<nme>Process2</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<Condition sr="c0" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>register me</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>என்னை பதிவு செய்</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>Register me</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>Register Me</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>నన్ను నమోదు చేయండి</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">order.ajithv.in</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>41</code>
+			<Str sr="arg0" ve="3">%SMSRF</Str>
+			<Str sr="arg1" ve="3">%REGISTER_MSG1</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">/api/Customers/register</Str>
+			<Str sr="arg2" ve="3">{"msg": "%SMSRB", "cno": "%SMSRF", "vno": "%VNO", "time": "%TIME"}</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/json</Str>
+			<Str sr="arg7" ve="3">tmp/out2.txt</Str>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">tmp/out2.txt</Str>
+			<Str sr="arg1" ve="3">%REGISTER_MSG</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%REGISTER_MSG</Str>
+			<Str sr="arg1" ve="3">"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%REGISTER_MSG</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%REGISTER_MSG</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%REGISTER_MSG2</lhs>
+					<op>0</op>
+					<rhs>SUCCESS</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Add to group</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>536</code>
+			<Str sr="arg0" ve="3">New Registration</Str>
+			<Str sr="arg1" ve="3">Add %SMSRF to Customers Group</Str>
+			<Img sr="arg2" ve="2">
+				<nme>cust_cookie</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task101">
+		<cdate>1469799067873</cdate>
+		<edate>1469799067873</edate>
+		<id>101</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VNO</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">OrdersAll2</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VNO</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task104">
+		<cdate>1469799067873</cdate>
+		<edate>1469799067873</edate>
+		<id>104</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+		</Action>
+	</Task>
+	<Task sr="task107">
+		<cdate>1469872996518</cdate>
+		<edate>1469881992215</edate>
+		<id>107</id>
+		<nme>AllOrders</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VNO</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">OrdersAll2</Str>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%VNO</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task108">
+		<cdate>1469873427290</cdate>
+		<edate>1469873427290</edate>
+		<id>108</id>
+		<Action sr="act0" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%VNO</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>195</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Str sr="arg1" ve="3">TextEdit2</Str>
+			<Int sr="arg2" val="2"/>
+			<Str sr="arg3" ve="3">%LANG</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Str sr="arg1" ve="3">TextEdit1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Str sr="arg1" ve="3">TextEdit2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">OrdersAll</Str>
+			<Str sr="arg1" ve="3">Button2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">/api/vendors</Str>
+			<Str sr="arg2" ve="3">{"phone": "%VNO", "name": "vendor-%VNO", "language": "%LANG"}</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/json</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task109">
+		<cdate>1469799067873</cdate>
+		<edate>1469799067873</edate>
+		<id>109</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">OrdersAll2</Str>
+		</Action>
+	</Task>
+	<Task sr="task95">
+		<cdate>1469697898861</cdate>
+		<edate>1469934005000</edate>
+		<id>95</id>
+		<nme>Process</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<Condition sr="c0" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>register me</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>என்னை பதிவு செய்</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>Register me</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>Register Me</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%SMSRB</lhs>
+					<op>4</op>
+					<rhs>నన్ను నమోదు చేయండి</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Already registered</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>548</code>
+			<label>debug</label>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Response code is %HTTPR For  %SMSRB from %SMSRF</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%HTTPR</lhs>
+					<op>0</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%DATA</Str>
+			<Str sr="arg1" ve="3">"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%DATA</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MSG</Str>
+			<Str sr="arg1" ve="3">%DATA1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ORDER_ID</Str>
+			<Str sr="arg1" ve="3">%DATA2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TABLE</Str>
+			<Str sr="arg1" ve="3">%HACK_HOST/order.html?id=%ORDER_ID</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">192.168.1.106</Str>
+			<Str sr="arg1" ve="3">/cgi-bin/relay.cgi?on</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="6"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>118</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">192.168.1.106</Str>
+			<Str sr="arg1" ve="3">/cgi-bin/relay.cgi?off</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="6"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Process</Str>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>41</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%SMSRF</Str>
+			<Str sr="arg1" ve="3">%MSG</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Order</Str>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>536</code>
+			<Str sr="arg0" ve="3">New Order Received</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>cust_star</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Open Order</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">Order</Str>
+					<Int sr="arg1" val="8"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="1"/>
+					<Int sr="arg6" val="1"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_content_paste</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>All Orders</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">AllOrders</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_collections_view_as_list</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>47</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Order</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Error: %DATA</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var data = JSON.parse(global("DATA"));
+if (!data.error.ignore)
+   setGlobal("REASON", data.error.msg);
+else
+   setGlobal("REASON", "IGNORE");</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>41</code>
+			<Str sr="arg0" ve="3">%SMSRF</Str>
+			<Str sr="arg1" ve="3">Your order could not be processed. Reason: %REASON</Str>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%REASON</lhs>
+					<op>1</op>
+					<rhs>IGNORE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">order.ajithv.in</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%SMSMSG</Str>
+			<Str sr="arg1" ve="3">%SMSRB</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%SMSMSG</Str>
+			<Str sr="arg1" ve="3">\n</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">,</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%SMSMSG</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">/api/orders/new</Str>
+			<Str sr="arg2" ve="3">{"msg": "%SMSMSG", "cno": "%SMSRF", "vno": "%VNO", "time": "%TIME"}</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/json</Str>
+			<Str sr="arg7" ve="3">tmp/out.txt</Str>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">tmp/out.txt</Str>
+			<Str sr="arg1" ve="3">%DATA</Str>
+		</Action>
+	</Task>
+	<Task sr="task96">
+		<cdate>1469788063992</cdate>
+		<edate>1469788063992</edate>
+		<id>96</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Order</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Order</Str>
+			<Str sr="arg1" ve="3">Button2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">/api/orders/updatestatus?status=accept&amp;id=%ORDER_ID</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Str sr="arg1" ve="3">%HTTPD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Str sr="arg1" ve="3">"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>41</code>
+			<Str sr="arg0" ve="3">%SMSRF</Str>
+			<Str sr="arg1" ve="3">%STATUS_MSG1</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task97">
+		<cdate>1469788243090</cdate>
+		<edate>1469788243090</edate>
+		<id>97</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Order</Str>
+			<Str sr="arg1" ve="3">Button1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Order</Str>
+			<Str sr="arg1" ve="3">Button2</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="400"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">%HACK_HOST</Str>
+			<Str sr="arg1" ve="3">/api/orders/updatestatus?status=reject&amp;id=%ORDER_ID</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Str sr="arg1" ve="3">%HTTPD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Str sr="arg1" ve="3">"</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Str sr="arg1" ve="3">|</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>41</code>
+			<Str sr="arg0" ve="3">%SMSRF</Str>
+			<Str sr="arg1" ve="3">%STATUS_MSG</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%STATUS_MSG</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task98">
+		<cdate>1469799067873</cdate>
+		<edate>1469799067873</edate>
+		<id>98</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Order</Str>
+		</Action>
+	</Task>
+</TaskerData>
