@@ -1,4 +1,6 @@
-#Problem:
+#SMS Order Application
+
+##Problem
 
 
 * Small vendors like grocers and vegetable vendors depend on people coming to the store for their clientele.
@@ -8,7 +10,7 @@ Such vendors are often ready to deliver at your home, provided you somehow let t
 vendors using nothing but natural language SMS, in their own language. The order should reach the vendor
 in the vendor's own language too.
 
-#The solution:
+##The solution
 
 
 The solution consists of -
